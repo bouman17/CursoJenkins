@@ -14,9 +14,9 @@ pipeline
                 }
             }
         }
-		    stage("Que día es hoy")
-		    {
-		        steps
+	stage("Que día es hoy")
+	{
+	    steps
             {
                 script
                 {
@@ -26,6 +26,6 @@ pipeline
                     println "El dia actual es: " + mapa[dia]
                 }
             }
-		    }
+	}
     }
 }
